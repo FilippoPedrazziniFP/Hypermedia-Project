@@ -21,7 +21,7 @@ Here the link to the website with some screenshots.
 http://timfmlhypermedia.altervista.org
 
 
-![](img/mobile.png)
+![](img/mobile)
 
 ![](img/home.png)
 
