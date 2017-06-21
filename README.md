@@ -20,6 +20,7 @@ Here the link to the website with some screenshots.
 
 http://timfmlhypermedia.altervista.org
 
+<img src="img/mobile.PNG" width="40%">
 
 ![](img/mobile.PNG | width=48)
 
