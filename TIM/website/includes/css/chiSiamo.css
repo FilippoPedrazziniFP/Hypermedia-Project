@@ -1,0 +1,91 @@
+
+.main-area {
+    margin-bottom: 50px;
+}
+
+.images {
+    
+    margin-top: 40px;
+    left: 250px;
+    
+    
+}
+
+/*.box-images{
+    padding: 20px;
+    
+    
+}*/
+
+.box-text {
+    font: normal normal 15px/23px;
+    font-family: raleway;
+    color: #727272;
+}
+
+.foto-grande {
+
+    position: relative;
+    height: 100%x;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: none repeat scroll 0 0;
+    
+}
+
+.column-text{
+    text-align: center;
+    vertical-align:middle;
+   margin-top: 150px;
+}
+
+.nome-grande {
+    
+    font-size: 40px;
+    font: normal normal 30px 'Bold';
+    font-family: raleway;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: darkblue;
+
+}
+
+.subtitle{
+    color: dimgray;
+    font-size: 25px;
+    letter-spacing: 5px;
+    
+}
+
+.description{
+    font: normal normal 18px 'Light';
+    font-family: raleway;
+    line-height: 1.5;
+    color:gray;
+}
+
+#centered{
+   text-align: center;
+}
+
+
+.center-block{
+    justify-content: center;
+}
+
+.buttom{
+    border-radius: 20px;
+    display: inline-block;
+    background:#2F5AE6;
+    color: white;
+    font: normal normal 13px 'Bold';
+    font-family: raleway;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px;
+}

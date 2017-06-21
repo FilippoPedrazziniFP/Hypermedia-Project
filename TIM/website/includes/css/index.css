@@ -1,0 +1,55 @@
+
+
+.cont-text {
+    display: none;
+    position: relative;
+    top: 60px;
+    width: 550px;
+}
+
+#myCarousel {
+	margin-top: 30px;
+}
+
+.carousel-caption {
+	font-size: 24px;
+}
+
+.carousel-caption h4 {
+    
+	font-size: 32px;
+    font-family: raleway;
+    text-align: left;
+}
+
+.carousel-caption h3 {
+	font-size: 28px;
+    font-family: raleway;
+    text-align: left;
+}
+
+.carousel-caption p {
+    
+    font-size: 16px;
+    font-family: raleway;
+    text-align: left; 
+    
+}
+
+#myCarousel .item { height: 250px; }
+
+#slide1 {
+	background: url('../../images/banner-hp-1000-mega.jpg') top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../images/banner-hp-fibra-casa-limited.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../images/banner-hp-tim-special-voce-dati.jpg') top center no-repeat;
+}
+#prodottoEvidenza {
+    
+    text-align: center;
+}

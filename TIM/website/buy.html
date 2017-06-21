@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+	<title>TIM</title>
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- Bootstrap CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link href="includes/css/styles.css" rel="stylesheet">
+	<!-- Include Modernizr in the head, before any other Javascript -->
+	<script src="includes/js/modernizr-2.6.2.min.js"></script>
+	<meta name="description" content="TIM Website">
+	<link rel="shortcut icon" href="images/fav.ico" type="images/x-icon" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
+
+    	<!-- jQuery -->
+	<script src="includes/js/jquery-1.8.2.min.js"></script>
+    
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+    <script async src="includes/js/productBar.js"></script>
+    <script src="includes/js/buy.js"></script>
+    <script async>
+        $(function(){
+    $("#header").load("header.html"); 
+    $("#footer").load("footer.html");
+});</script>
+</head>
+
+<body>
+	<br>
+	<div class="container" id="main">
+        
+        <!-- Navbars -->
+		<div id="productBar"></div>
+		<div id="header"></div>
+        <!-- End navbars -->
+        
+		<div class="row">
+            <!-- Main area -->
+			<div class="col-sm-12 feature">
+                <!-- Img + name + price / short description -->
+				<div class="col-sm-4 feature">
+					<div id="single-product-img"></div>
+				</div>
+				<br>
+
+                <!-- Form -->
+				<div class="col-sm-8 feature">
+					<form class="form-horizontal">
+						<div class="form-group">
+							<label class="col-sm-2" for="inputName">Nome</label>
+							<div class="col-sm-8">
+								<input class="form-control" id="inputName" placeholder="Nome" type="text">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-2" for="inputName">Cognome</label>
+							<div class="col-sm-8 feature">
+								<input class="form-control" id="inputName" placeholder="Cognome" type="text">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-2" for="inputName">Indirizzo</label>
+							<div class="col-sm-8 feature">
+								<input class="form-control" id="inputName" placeholder="Indirizzo" type="text">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-2" for="inputName">Username</label>
+							<div class="col-sm-8">
+								<input class="form-control" id="inputName" placeholder="Username" type="text">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-2" for="inputObject">Oggetto</label>
+							<div class="col-sm-8">
+								<input class="form-control" id="inputObject" placeholder="Oggetto" type="Object">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-2" for="inputMessage">Messaggio</label>
+							<div class="col-sm-8">
+								<textarea class="form-control" id="inputMessage" placeholder="Messaggio" rows="5"></textarea>
+								<button class=" btn btn-primary pull-right btn-default" type="submit" onclick="sendMail(); return false">Procedi al pagamento</button>
+                                <a id="close" >
+						          <button class="btn btn-default" type="button">Chiudi</button></a>
+					
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<footer id="footer"></footer>
+
+</html>

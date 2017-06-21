@@ -1,0 +1,691 @@
+
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#descrizione {
+    
+    margin-top: 10px;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+#titolo {
+    
+    text-align: center;
+}
+
+/* --------------------------------------
+   Products
+   -------------------------------------- */
+
+
+#products {
+    
+    text-align: center;
+}
+
+#productsHeading h2 {
+    
+    font-family: raleway;
+    font-size: 24px;
+}
+
+#products img {
+    
+    height: 200px;
+    width: 200px;
+    margin: 0 0 20px;
+}
+
+/* --------------------------------------
+   Products Categories
+   -------------------------------------- */
+
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#FAQpanel::before{
+    
+}
+#FAQpanel{
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+  margin-bottom: 0px;
+  background-color: #ffffff;
+  border: 0px solid #dddddd;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+}
+
+#FAQbody{
+    
+    padding-top: 0px;
+    padding-bottom: 10px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 0px solid #dddddd;
+}
+
+
+#categoria {
+    
+    
+}
+
+#categoria {
+    
+    text-align: center;
+}
+
+#categoria a {
+    
+    font-family: raleway;
+}
+
+#categoria img {
+
+    margin: 0 0 20px;
+}
+
+/* --------------------------------------
+   Products By Category
+   -------------------------------------- */
+
+#prodotto {
+    
+    text-align: center;
+}
+
+#prodotto a {
+    
+    font-family: raleway;
+}
+
+#prodotto img {
+
+
+}
+
+/* --------------------------------------
+   Single Product
+   -------------------------------------- */
+
+#prodotto-layout {
+    
+    margin-top: 10px;
+}
+
+
+#single-product-img img {
+
+
+    
+}
+
+#single-product-img {
+    
+    text-align: center;
+}
+
+#single-product-name-price{
+    
+    font-family: raleway;
+}
+
+#single-product-name-price h2{
+    
+    font-family: raleway;
+}
+
+
+.related-title {
+    
+    font-family: raleway;
+}
+
+#prodotto-related {
+    
+    text-align: center;
+}
+
+#prodotto-related h5 {
+    
+    font-family: raleway;
+}
+
+#prodotto-related img {
+
+    margin: 0 0 10px;
+}
+
+
+/* --------------------------------------
+   Nav - Table
+   -------------------------------------- */
+.nav-tabs,
+.nav-pills {
+  position: relative;
+
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+body { 
+
+    padding-top: 50px; 
+}
+
+.navbar a {
+  font-family: raleway;
+  
+}
+
+.selezionato {
+  
+  background-color: #00468B; 
+  
+} 
+
+.navbar-brand {
+
+  padding: 13px 15px;
+}
+
+
+  .navbar-goto {
+    float: left;
+    margin-right: 5px;
+    margin-left: -15px;
+  }
+
+.navbar-goto:hover,
+.navbar-goto:focus {
+  color: #5e5e5e;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-goto {
+  display: block;
+  max-width: 200px;
+  padding: 15px 2px;
+  margin-right: none;
+  margin-left: auto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #777777;
+  text-align: center;
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 970px) {
+	
+    .navbar-goto {
+  display: block;
+  max-width: 200px;
+  padding: 15px 2px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #777777;
+  text-align: center;
+
+  float: left;
+    position: relative;
+    left: -50%;
+    
+}
+    
+    .navbar-cont {
+         float: left;
+    position: relative;
+    left: 50%;
+    }
+    
+}
+
+
+
+
+@media (max-width: 970px) {
+  #barcat {
+      float: none;
+  }
+  #barcat {
+      float: none !important;
+  }
+  #barcat {
+      display: block;
+  }
+  #barcat {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  #barcat {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  #barcat {
+      display: none!important;
+  }
+  #barcat {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  #barcat>li {
+      float: none;
+  }
+  #barcat>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  
+}
+
+
+
+
+
+#nav-sfondo {
+    background: url(../../images/crossword.png) repeat scroll 0 0 #005CA4;
+    
+}
+
+
+#nav-bar-list > li > a{
+    
+    color: white;
+}
+
+
+#nav-bar-list > li > a:hover {
+    
+    color: red;
+    background-color: #00468B;
+}
+
+#nav-bar-list > li > a:focus {
+    
+    color: red;
+    background-color: #00468B;
+    
+}
+
+/* --------------------------------------
+   Navbar - EFFETTI
+   -------------------------------------- */
+
+.effect2{
+	color:#00468B;
+	-ms-transition: all linear 0.2s;
+	-webkit-transition: all linear 0.2s; 
+	-moz-transition: all linear 0.2s;
+	transition: all linear 0.2s;
+	}
+.effect2:hover {
+	color: red;
+	-ms-transition: all linear 0.2s;
+	-webkit-transition: all linear 0.2s; 
+	-moz-transition: all linear 0.2s;
+	transition: all linear 0.2s;
+	}
+.effect2:before {
+	position:absolute;
+	bottom:-3px;
+	content:" ";
+	display:block;
+	width:0;
+	height:2px;
+	background:#00468B;
+	-ms-transition: all linear 0.2s;
+	-webkit-transition: all linear 0.2s; 
+	-moz-transition: all linear 0.2s;
+	transition: all linear 0.2s;
+	}
+.effect2:hover:before{
+	width:100%;
+	background: red;
+	}
+
+
+
+/* --------------------------------------
+   Filtro Prodotti
+   -------------------------------------- */
+
+
+#accordion a {
+    
+    margin-top: 5px;
+    font-family: raleway;
+}
+
+.accordion-group {
+    
+    border: none;
+}
+
+#button {
+    
+    text-align: center;
+}
+
+h4 {
+    
+    font-family: raleway;
+  
+} 
+
+
+i {
+    
+    font-family: raleway;
+  
+} 
+
+.form-group input[type="checkbox"] {
+    display: none;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span {
+    width: 20px;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span:first-child {
+    display: none;
+}
+.form-group input[type="checkbox"] + .btn-group > label span:last-child {
+    display: inline-block;   
+}
+
+.form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
+    display: inline-block;
+}
+.form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
+    display: none;   
+}
+
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+.carousel-caption {
+    
+    font-size: 24px;
+    
+}
+
+.carousel-caption h4{
+    
+    font-size: 32px;
+    
+}
+
+/* --------------------------------------
+   Small Devices
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+#device a {
+   background: url(../../images/crossword.png) repeat scroll 0 0 #00468B; 
+   font-family: raleway;
+    
+}
+
+#bigCallout {
+    
+    margin-top: 5px;
+}
+
+
+/* --------------------------------------
+   Footer
+   -------------------------------------- */
+
+
+#footer{
+    
+    font-family: raleway;
+}
+
+#footer h3{
+    
+    font-family: raleway;
+    font-size: bold;
+}
+
+.modal-header {
+    color: black;
+}
+
+.control-label {
+    color: black;
+    font-size: 16px;
+}
+
+#inputMessage {
+	margin-bottom: 15px;
+}
+
+footer {
+    margin-top: 100px;
+	background: #F0F0F0;
+	color: #eee;
+	font-size: 20px;
+	padding: 8px;    
+}
+
+#contact-button {
+    
+    font-family: raleway;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+    .carousel-caption {
+        
+        font-size: 14px;
+        
+    }
+    
+    .carousel-caption h4 {
+        
+        font-size: 16px;
+    }
+
+    .carousel-caption h3{
+        
+        font-size: 16px;
+    }
+    
+    #categoria {
+    
+    margin: 0 auto auto;
+    }
+    
+    
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+    
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
+
+
+
+
+#categorie {
+    margin-top: 40px;
+}
+
+#productBar { 
+
+    padding-top: 50px; 
+}
+
+@media (max-width: 768px) {
+	
+    #productBar { 
+
+    padding-top: 50px; 
+    }
+}
+
+#assistance-related {
+    
+    text-align: center;
+
+}
+
+#smartlife-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#text-over {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;
+}
+
+#related-container{
+    height:300px;
+    line-height:3em;
+    overflow:auto;
+    padding:5px;
+}
+
+
+@media (max-width: 1199px) {	
+    #related-container{
+    height:240px;
+}   
+}
+
+@media (max-width: 991px) {
+	
+    #related-container{
+    height:180px;
+}  
+}
+
+@media (max-width: 767px) {
+	
+    #related-container{
+    height: 360px;
+}  
+        #special-col{
+        max-height: 50%;
+        max-width: 50%;
+        float: left;
+    } 
+}
+
+@media (max-width: 700px) {
+	
+    #related-container{
+    height:330px;
+}  
+}
+
+@media (max-width: 650px) {
+	
+    #related-container{
+    height:280px;
+}  
+}
+
+@media (max-width: 600px) {
+	
+    #related-container{
+    height:260px;
+}  
+}
+
+@media (max-width: 550px) {
+	
+    #related-container{
+    height:240px;
+}  
+}
+
+@media (max-width: 500px) {
+	
+    #related-container{
+    height:220px;
+}  
+}
+
+@media (max-width: 450px) {
+	
+    #related-container{
+    height:200px;
+}  
+}
+
+@media (max-width: 400px) {
+	
+    #related-container{
+    height:330px;
+}  
+            #special-col{
+        max-height: 100%;
+        max-width: 100%;
+        float: none;
+    } 
+}
+
+
+
+
+
+
+#panel-related {
+    margin-top: 20px;
+}
+
+#wrapper {
+	-height:100%;
+	position:relative;
+}

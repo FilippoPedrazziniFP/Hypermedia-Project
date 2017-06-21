@@ -1,0 +1,141 @@
+
+.product-images {
+    
+    margin-top: 40px;
+
+}
+
+.product-inner {
+    
+    margin-top: 20px;
+}
+
+
+.main-area {
+    margin-bottom: 50px;
+}
+
+.product-wid {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.product-wid h5{
+    
+    margin-top: 10px;
+}
+
+.nome-grande {
+    
+    color: black;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+
+.foto-grande {
+
+    left: 0px;
+    position: relative;
+    height: 100%x;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: none repeat scroll 0 0;
+    
+}
+
+#service-image{
+    padding: 20px 20px;
+}
+
+#service-image{
+    padding: 10px 10px;
+}
+
+.prezzo-singolo-prodotto {
+    text-align: center;
+    color: #00489a;
+    font-size: 24px;
+}
+
+.product{
+    
+}
+
+#related-products{
+    float:right;
+}
+
+#centered{
+   text-align: center;
+}
+
+.product-title{
+    position: static;
+    height: 100%x;
+    width: 100%;
+    background: none repeat scroll 0 0;
+}
+.product-image-area {
+    background: url(../../images/tim-seriea.jpg) repeat scroll 0 0 #00489a;
+    padding: 40px 40px;
+}
+#descrizione-regole {
+
+    width: 670px;
+    float:left;
+
+}
+
+#previous-next{
+    width: 670px;
+
+}
+
+.cta-red {
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    border-color: #eb0028;
+    float:center;
+    
+}
+.cta-red, .cta-red:hover {
+    background: #eb0028;
+    color: #fff;
+}
+.center-block{
+    justify-content: center;
+}
+.cta {
+
+
+    padding: 7px 2px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+
+     margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+#abbonati{
+    width:160px;
+}
+.previous {
+    float:left;
+}
+.next {
+    float:right;
+}
+#navigator{
+    width: 20px;
+    height: 20px;
+}
+
