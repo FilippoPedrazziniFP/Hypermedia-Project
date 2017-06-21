@@ -20,12 +20,8 @@ Here the link to the website with some screenshots.
 
 http://timfmlhypermedia.altervista.org
 
-<img src="img/mobile.PNG" width="40%">
+<img src="img/mobile.PNG" width="30%">
+<img src="img/home.PNG" width="30%">
+<img src="img/phones.PNG" width="30%">
+<img src="img/phone.PNG" width="30%">
 
-![](img/mobile.PNG | width=48)
-
-![](img/home.png)
-
-![](img/phones.png)
-
-![](img/phone.png)
